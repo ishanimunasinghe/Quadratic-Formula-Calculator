@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Quadratic Formula Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <h1>Quadratic Formula Calculator</h1>
+    <hr />
+    <img class="center_align" src="https://www.mathsisfun.com/algebra/images/quadratic-equation.svg" width="400px">
+    <hr />
+    <h2><u>Input Values:</u></h2>
+    <p>Please enter the following values:</p>
+    <ul id="questions">
+      <li>a: <input id="numA" type="number" /></li>
+      <li>b: <input id="numB" type="number" /></li>
+      <li>c: <input id="numC" type="number" /></li>
+      
+    </ul>
+    <p class="right_align"><button id="find-x">Find X</button></p>
+
+    <h2><u>Output:</u></h2> 
+    <p class="output_result">Discriminant: <span class="output_value "id="discriminant_value">---</span></p>
+    <p class="output_result">Number of Real Roots (Solutions): <span class="output_value" id="num_of_solutions">---</span></p>
+    <p class="output_result">Solution #1: <span class="output_value" id="solution_1">---</span></p>
+    <p class="output_result">Solution #2: <span class="output_value" id="solution_2">---</span></p>
+    
+    <hr />
+    <img class="center_align" src="https://www.mathsisfun.com/algebra/images/quadratic-formula.svg" width="400px">
+    <script src="script.js"></script>
+  </body>
+</html>
